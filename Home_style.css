@@ -1,0 +1,136 @@
+*{ box-sizing: border-box;
+margin: 0px; 
+padding: 0px; 
+  
+}
+body{ background: #272727;
+color: #fff; 
+font-family: 'Segoe UI';
+line-height: 1;
+}
+.dark-mode{
+  background-color: #ECF0F3;
+}
+.block{
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  width: 300px;
+  text-align: center;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.img2{
+  width: 300px;
+ 
+  position: relative;
+  text-align: center;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding-bottom: 0px;
+ bottom: 190px;  
+}
+.input-cnt {
+         display: flex;
+         position: relative;
+         bottom: 270px;  
+      }
+      .input-cnt > i {
+         width: 40px;
+         padding: 10px;
+         text-align: center;
+         background: orange;
+         border-top-left-radius: 20px;
+         border-bottom-left-radius: 20px;
+      }
+      .input-cnt > input {
+         outline: none;
+         border: none;
+         padding: 10px;
+         border: 2px solid orange;
+         border-top-right-radius: 20px;
+         border-bottom-right-radius: 20px;
+         width: 1000px;
+         transition: width .5s;
+      }
+      .input-cnt:hover > input {
+         border: 2px solid #0076ff;
+         width: 100%;
+      }
+      .input-cnt:hover > i {
+         background: #0076ff;
+         color: white;
+      }
+ footer{ font-size: 1rem; 
+position: relative;
+bottom:-0.5rem;
+text-align: center;
+padding: 0;
+color: orange; 
+} 
+  @media only screen and (min-width: 480px) {
+    footer{ font-size: 1rem; 
+position: relative;
+bottom:-10rem;
+text-align: center;
+padding: 0;
+color: orange; 
+} 
+}
+ @media only screen and (min-width: 1024px) {footer{ font-size: 1rem; 
+position: relative;
+bottom:-9rem;
+text-align: center;
+padding: 0;
+color: orange; 
+} 
+.input-cnt {
+         display: flex;
+         position: relative;
+         bottom: 270px;  
+      }
+      .input-cnt > i {
+         width: 60px;
+         padding: 10px;
+         text-align: center;
+         background: orange;
+         border-top-left-radius: 20px;
+         border-bottom-left-radius: 20px;
+      }
+      .input-cnt > input {
+         outline: none;
+         border: none;
+         padding: 10px;
+         border: 2px solid orange;
+         border-top-right-radius: 20px;
+         border-bottom-right-radius: 20px;
+         width: 1624px;
+         transition: width .5s;
+      }
+      .input-cnt:hover > input {
+         border: 2px solid #0076ff;
+         width: 100%;
+      }
+      .input-cnt:hover > i {
+         background: #0076ff;
+         color: white;
+      }
+}
+.switch{
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  position: fixed;
+  right: 0.6rem;
+  bottom: 2rem;
+  outline: none;
+background-color:#272727;
+color: orange; 
+border-width: 2px;
+border-color: orange;
+border-style: solid;
+  border-radius: 12px;
+}

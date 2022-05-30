@@ -151,7 +151,7 @@ border-style: solid;
        color: white;
       
        padding: 10px;
-       box-shadow: 2px 2px 4px #222;
+       box-shadow: 0 15px 30px rgba(0,0,0,0.30), 0 11px 8px rgba(0,0,0,0.22);
         border-radius: 12px;
         justify-content: space-around;
       }

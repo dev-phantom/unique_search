@@ -151,7 +151,7 @@ border-style: solid;
        color: white;
       
        padding: 10px;
-       box-shadow: -2px -2px 4px #fff, 2px 2px 4px #ECF0F3;
+       box-shadow: 2px 2px 4px #000;
         border-radius: 12px;
         justify-content: space-around;
       }
